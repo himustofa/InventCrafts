@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">InventCrafts</string>
+    <string name="network_unavailable">Network connection is not available</string>
+</resources>
