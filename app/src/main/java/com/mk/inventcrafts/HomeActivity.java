@@ -82,9 +82,6 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
                 Snackbar.make(findViewById(android.R.id.content), getString(R.string.network_unavailable), Snackbar.LENGTH_LONG).show();
-                if (mProgressBar.isShown()) {
-                    mProgressBar.setVisibility(View.GONE);
-                }
             }
         });
         mWebView.loadUrl(url);
